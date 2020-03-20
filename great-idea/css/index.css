@@ -197,7 +197,6 @@ section .button{
 section p {
 	padding: 7px;
 }
-/* how would I do margin on too of my anchor tag???*/
 
 ul.list {
 	list-style-type: square;
@@ -220,6 +219,114 @@ ul.list {
 .header-img, .containter-flex, .container-footer, p {
 	line-height: 26px;
 }
+
+/* Features page */
+
+.features {
+	background-image: url(../img/world.jpg);
+	height: 100%;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.container-bg .text {
+	color: white;
+	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+	font-size: 70px;
+	text-align: center;
+	margin: 80px 0 0 0;
+}
+
+.connect {
+	background-color: transparent;
+	color: white;
+	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+	border:none;
+	font-size: 70px;
+	transition-duration: .5s;
+}
+
+.connect:hover {
+	color:#1A48C0;
+}
+
+.container-ft {
+	display: flex;
+	flex-direction: column;
+	margin-bottom: 40px;
+}
+
+.android {
+	display: flex;
+	justify-content: space-between;
+	margin: 700px 0 20px 0;
+	color:white;
+	background-color: orange;
+	border-radius: 7px;
+	padding: 20px;
+}
+
+.head1 {
+	font-size: 30px;
+	width: 65%;
+}
+
+.android i{
+	font-size: 70px;
+	margin-right: 80px;
+}
+
+.apple {
+	display: flex;
+	justify-content: space-between;
+	margin: 100px 0 20px 0;
+	color:white;
+	background-color: orange;
+	border-radius: 7px;
+	padding: 20px;
+}
+
+.apple i {
+	font-size: 80px;
+	margin-right: 82px;
+}
+
+.security {
+	display: flex;
+	justify-content: space-between;
+	margin: 100px 0 20px 0;
+	color:white;
+	background-color: orange;
+	border-radius: 7px;
+	padding: 20px;
+}
+
+.security i{
+	font-size: 70px;
+	margin-right: 60px;
+}
+
+.edit {
+	display: flex;
+	justify-content: space-between;
+	margin: 100px 0 20px 0;
+	color:white;
+	background-color: orange;
+	border-radius: 7px;
+	padding: 20px;
+}
+
+.edit i {
+	font-size: 70px;
+	margin-right: 60px;
+}
+
+
+
+
+
+
 
 
 
