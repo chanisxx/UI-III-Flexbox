@@ -48,9 +48,6 @@ table {
 }
 
 /* Set every element's box-sizing to border-box */
-* {
-    box-sizing: border-box;
-}
 
 html, body {
     height: 100%;
@@ -60,7 +57,81 @@ html, body {
 h1, h2, h3, h4, h5 {
     font-family: 'Bangers', cursive;
     letter-spacing: 1px;
-    margin-bottom: 15px;
+	margin-bottom: 15px;
 }
 
-/* Copy and paste your work from yesterday here and start to refactor into flexbox */
+body {
+	margin: 30px 100px;
+}
+
+.container {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-bottom: 100px;
+}
+
+.nav a {
+	margin-right: 80px;
+	text-decoration: none;
+	color: lightgrey;
+	font-size: 20px;
+}
+
+.content {
+	display: flex;
+	justify-content: space-evenly;
+	margin-bottom: 130px;
+}
+
+.heading h1 {
+	font-size: 90px;
+	text-align: center;
+}
+
+.button{
+	border-radius: 0px;
+	border: 1px solid black;
+	font-size: 18px;
+	padding: 1% 12%;
+	margin-left: 100px;
+	font-family: Titillium Web;
+}
+
+.top-box {
+	display: flex;
+	justify-content: space-between;
+	margin: 20px 0;
+	padding: 35px 0;
+	border-top: 1px solid black;
+}
+
+.middle-box img {
+	width: 100%;
+	z-index: 0;
+}
+
+.bottom-box {
+	display: flex;
+	justify-content: space-between;
+	margin: 20px 0;
+	padding: 20px 0;
+	border-bottom: 1px solid black;
+}
+
+.info1 .info2 .info3 {
+	margin-right: 30px;
+}
+
+.number {
+	margin-top: 15px;
+}
+
+.footer {
+	display: flex;
+	justify-content: center;
+	margin: 60px;
+}
+
+
+
