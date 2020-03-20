@@ -78,6 +78,10 @@ body {
 	font-size: 20px;
 }
 
+.nav a:hover {
+	text-shadow: 2px 2px rgb(170, 145, 145);
+}
+
 .content {
 	display: flex;
 	justify-content: space-evenly;
@@ -132,6 +136,91 @@ body {
 	justify-content: center;
 	margin: 60px;
 }
+
+/* services page */
+
+.container2 {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-bottom: 10px;
+}
+
+.header-img {
+	display: flex;
+	flex-direction: column-reverse;
+	border-bottom: 1px solid black;
+	margin: 30px 0;
+	padding: 20px 0;
+}
+
+.header-img img {
+	width: 100%;
+	margin-bottom: 20px;
+}
+
+.header-img h1 {
+	font-size: 20px;
+}
+
+.container-flex {
+	display: flex;
+	flex-flow: wrap;
+	justify-content: space-between;
+	border-bottom: 1px solid black;
+}
+
+.container-flex section {
+	border: 1px solid black;
+	width: 400px;
+	height: 250px;
+	background: #ECF0F1 ;
+	padding: 20px;
+	margin-bottom: 40px;
+}
+
+section .button{
+	text-decoration: none;
+	color: black;
+	border: 1px solid black;
+	border-radius: 5px;
+	background: white;
+	margin: 5px 30px 5px 0;
+}
+
+.button:hover {
+	background: grey;
+	color: white;
+}
+
+section p {
+	padding: 7px;
+}
+/* how would I do margin on too of my anchor tag???*/
+
+ul.list {
+	list-style-type: square;
+	margin: 30px;
+	line-height: 30px;
+}
+
+.container-footer{
+	display: flex;
+	justify-content: space-between;
+	margin: 20px 0;
+}
+
+.inc {
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+body  {
+	line-height: 23px;
+}
+
+
+
 
 
 
